@@ -1,0 +1,28 @@
+{
+  "name": "cypress-intro-homework",
+  "version": "1.0.0",
+  "description": "Hillel Cypress Introduction Project",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d31taL0L/cypress-intro-homework.git"
+  },
+  "keywords": ["cypress", "testing", "e2e", "automation"],
+  "author": "d31taL0L",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/d31taL0L/cypress-intro-homework/issues"
+  },
+  "homepage": "https://github.com/d31taL0L/cypress-intro-homework#readme",
+  "devDependencies": {
+    "cypress": "^13.16.1"
+  }
+}
